@@ -16,13 +16,13 @@ object FizzBuzz extends App {
     //println(s"i is now $i")
 
     if (i % 5 == 0 && i % 7 == 0) {
-    println(s"FizzBuzz")
+    print(s"FizzBuzz,")
 
    } else if (i% 5 == 0) {
-     println(s"Fizz")
+     print(s"Fizz,")
 
    }  else if (i% 7 == 0){
-      println(s"Buzz")
- } else { println(s"$i")}
+      print(s"Buzz,")
+ } else { print(s"$i,")}
 
 }}
